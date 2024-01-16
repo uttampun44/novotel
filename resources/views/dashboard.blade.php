@@ -5,13 +5,13 @@
         </h2>
     </x-slot>
 
-    <div class="py-12 grid  grid-cols-2">
+    <div class="py-12 grid">
          <div class="sidemenu grid">
             @include('layouts.header.siderbar')
          </div>
 
-         <div class="dashboard-content col-span-3">
-            <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
+         <div class="dashboard-content mr-8 ml-72 my-8" id="content">
+            <div class="mx-auto sm:px-6 lg:px-8">
                 <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg py-10">
                    <div class="dashboard-col grid gap-y-4 justify-center">
                     <div class="p-6 text-gray-900">
