@@ -1,5 +1,5 @@
-<div class="novotel_sidebar fixed bg-blue-900 h-[100%] px-6">
-    <div class="novotel_cols grid my-6">
+<div class="novotel_sidebar absolute bg-blue-900 h-[100%] px-8 top-14">
+    <div class="novotel_cols grid my-8">
           <aside>
               <ul class="py-8 grid gap-y-8">
                 <li><a href="{{route('dashboard')}}" class="text-lg font-medium font-sans text-white">Dashboard</a></li>
