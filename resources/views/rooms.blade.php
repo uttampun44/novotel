@@ -1,4 +1,4 @@
-<section class="room-section">
+<section class="room-section" id="roomSection">
        <div class="room-container mr-8 ml-72 my-8" id="content">
            <div class="room-cols">
               <div class="room-title">
