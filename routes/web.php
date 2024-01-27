@@ -3,6 +3,7 @@
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\RoomsController;
+use App\Http\Controllers\Home;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,9 +16,9 @@ use App\Http\Controllers\RoomsController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [Home::class, 'home'])->name('home');
+Route::post('/', [Home::class, 'home'])->name('home');
+
 Route::get('/room', [RoomsController::class, 'Rooms'])->name('rooms');
 Route::get('/dashboard', function () {
     return view('dashboard');
