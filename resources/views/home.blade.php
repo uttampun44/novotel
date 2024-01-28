@@ -1,4 +1,4 @@
-<x-header.header />
+@include('layouts.header.header')
 <main>
     <section>
         <div class="home-hero-container container mx-aut md:my-8">

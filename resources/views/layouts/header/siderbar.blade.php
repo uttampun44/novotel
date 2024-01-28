@@ -4,9 +4,9 @@
               <ul class="py-8 grid gap-y-8 justify-center">
                 <li><a href="{{route('dashboard')}}" class="text-lg font-medium font-sans text-white">Dashboard</a></li>
                 <li><a href="{{route('profile.edit')}}" class="text-lg font-medium font-sans text-white">Profile</a></li>
-                <li><a href="" class="text-lg font-medium font-sans text-white">Room Information</a></li>
+                <li><a href="{{route('roomsinfo')}}" class="text-lg font-medium font-sans text-white">Room Information</a></li>
                 <li><a href="{{route('rooms')}}" class="text-lg font-medium font-sans text-white">Add Rooms</a></li>
-                <li><a href="" class="text-lg font-medium font-sans text-white">Room Categories</a></li>
+                <li><a href="{{route('roomcategory')}}" class="text-lg font-medium font-sans text-white">Room Categories</a></li>
               </ul>
           </aside>
     </div>

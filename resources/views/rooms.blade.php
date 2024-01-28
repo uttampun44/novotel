@@ -7,7 +7,7 @@
 <section class="room-section" id="roomSection">
     <div class="py-12 grid">
         <div class="sidemenu grid">
-           @include('layouts.header.siderbar')
+           @include('layouts.header.siderbar');
         </div>
 
         <div class="rooms-content mr-8 ml-72 my-8" id="content">
